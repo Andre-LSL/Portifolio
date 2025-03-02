@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0 0;
+}
+
+.topo {
+    background-image: url(../imagens/Wallpaper2.png);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    color:white;
+    padding-top: 1px;
+}
+
+.conteudoheader {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.topo nav ul {
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.topo nav li {
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 6px;
+    margin-left: 16px;
+    border: 2px solid #eee;
+}
+
+.topo nav a {
+    background-color: rgba(0,0,0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+
+.topo h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+
+.topo p {
+    background-color: rgba(0, 0, 0, .7);
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px;
+    border-bottom: 2px solid;
+    border-radius: 6px;
+}
+
+.projetos a {
+    display: inline-block;
+    padding: 16px;
+    background-color: #eee;
+    text-decoration: none;
+    margin: 0px 10px 10px 10px;
+    border-radius: 6px;
+}
+
+
+article {   
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    border-radius: 6px;
+    margin-top: 32px;
+
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+.rodape {
+    color: white;
+    background-color: #6b6c68;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
