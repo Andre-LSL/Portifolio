@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
-    margin: 0 0;
+    margin: 0;
 }
 
 .topo {
@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-position: right center;
     color:white;
-    padding-top: 1px;
+    padding: 1px;
 }
 
 .conteudoheader {
