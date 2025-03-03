@@ -1,19 +1,7 @@
-html {
-    font-size: 62.5%
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
     margin: 0;
-}
-
-body p, nav {
-    font-size: 1.6em;
-}
-
-body h2 {
-    font-size: 2em;
 }
 
 .topo {
@@ -56,7 +44,7 @@ body h2 {
 }
 
 .topo h1 {
-    font-size: 5.6em;
+    font-size: 3em;
     text-shadow: 2px 2px 5px black;
     margin-bottom: 0;
 }
@@ -64,7 +52,7 @@ body h2 {
 .topo p {
     background-color: rgba(0, 0, 0, .7);
     display: inline-block;
-    font-size: 1.8em;
+    font-size: 1.3em;
     padding: 16px;
     border-bottom: 2px solid;
     border-radius: 6px;
