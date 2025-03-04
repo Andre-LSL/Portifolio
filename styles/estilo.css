@@ -1,93 +1,128 @@
+html {
+    font-size: 62.5%; 
+    --h1-size: 3.5rem;
+    --h2-size: 2.5rem;
+    --li-size: 1.8rem;
+    --p-size: 1.6rem;
+}
+
+/* definindo valor padrão para todos a fim de evitar bugs */
+h1, h2, li, p {
+    font-size: var(--p-size); 
+}
+
+/* atribuindo o valor de size para todos */
+h1 { --size: var(--h1-size); }
+h2 { --size: var(--h2-size); }
+li { --size: var(--li-size); }
+p  { --size: var(--p-size); }
+
+/* aplicando o valor de size para todos */
+
+h1, h2, li, p {
+    font-size: var(--size);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
     margin: 0;
+    padding: 0;
 }
 
 .topo {
     background-image: url(../imagens/Wallpaper2.png);
-    height: 500px;
+    height: 50em; 
     background-size: cover;
     background-position: right center;
-    color:white;
-    padding: 1px;
+    color: white;
+    padding: 1.5em; 
 }
 
+/* Centralizando o conteúdo */
 .conteudoheader {
-    margin: 100px auto 0;
+    margin: 5em auto 0; 
     width: 80%;
     text-align: center;
 }
 
+/* Navegação */
 .topo nav ul {
-    margin: 20px 50px 0 0;
+    margin: 1.5em 3em 0 0; 
     position: fixed;
-    right: 10px;
+    right: 1.5em;
 }
 
 .topo nav li {
     display: inline-block;
     list-style-type: none;
-    border-radius: 6px;
-    margin-left: 16px;
-    border: 2px solid #eee;
+    border-radius: 0.6em;
+    margin-left: 1.6em;
+    border: 0.1em solid #eee;
 }
 
 .topo nav a {
     background-color: rgba(0,0,0, 0.3);
-    padding: 16px;
+    padding: 1.6em;
     display: block;
     color: white;
     text-decoration: none;
-    border-radius: 6px;
-
+    border-radius: 0.6em;
+    font-size: 0.7em;
 }
 
+/* Títulos */
 .topo h1 {
-    font-size: 3em;
-    text-shadow: 2px 2px 5px black;
-    margin-bottom: 0;
+    text-shadow: 0.2em 0.2em 0.5em black;
+    margin: 5em 1em 0;
 }
 
+/* Parágrafos */
 .topo p {
     background-color: rgba(0, 0, 0, .7);
-    display: inline-block;
-    font-size: 1.3em;
-    padding: 16px;
-    border-bottom: 2px solid;
-    border-radius: 6px;
+    display: inline-block; 
+    padding: 1.6em;
+    border-bottom: 0.2em solid;
+    border-radius: 0.6em;
 }
 
+/* Links dos projetos */
 .projetos a {
     display: inline-block;
-    padding: 16px;
+    font-size: 1.4em;
+    padding: 1.6em;
     background-color: #eee;
     text-decoration: none;
-    margin: 0px 10px 10px 10px;
-    border-radius: 6px;
+    margin: 0 1em 1em 1em;
+    border-radius: 0.6em;
 }
 
-
+/* Artigos */
 article {   
     background-color: white;
-    padding: 16px;
-    margin-bottom: 32px;
-    border-radius: 6px;
-    margin-top: 32px;
-
+    padding: 1.6em;
+    margin-bottom: 3.2em;
+    border-radius: 0.6em;
+    margin-top: 3.2em;
 }
 
+.teste a {   
+    font-size: 1em;
+}
+
+/* Container principal */
 main {
     width: 90%;
     margin: auto;
-    max-width: 860px;
+    max-width: 86em;
 }
 
+/* Rodapé */
 .rodape {
     color: white;
     background-color: #6b6c68;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 0.2em 0.2em 0.5em black;
     text-align: center;
-    padding: 30px;
+    padding: 3em;
     margin: 0;
 }
